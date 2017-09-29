@@ -1,0 +1,12 @@
+<%# app/views/rooms/show.html.erb%>
+<div class="main_container container">
+  <h1>Chat Room</h1>
+
+  <div id="messages">
+    <%= render @messages %>
+  </div>
+
+  <form>
+    <input type="text" data-behavior="room_speaker" placeholder="Say Something" />
+  </form>
+</div>
